@@ -1,0 +1,106 @@
+body {
+    font-family: 'Poppins', sans-serif
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(20, 20, 20);
+    padding-left: 150px;
+    margin-left: 100px;
+    border-radius: 10px;
+    width: 1000px;
+    height: 340px;
+    color: azure;
+    text-align: start;
+}
+
+.main-text {
+    margin-top: 50px;
+}
+
+.main-text button {
+    background-color: red;
+    height: 30px;
+    border: 2px solid red;
+    border-radius: 2px;
+    color: rgb(245, 245, 245);
+}
+
+.more-button {
+    background-color: rgb(20, 19, 19);
+    width: 120px;
+    padding: 25px;
+    height: 66px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.link-button {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    width: 50px;
+    padding-left: 20px;
+}
+
+.blog .more-button .another-button {
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 2px;
+    width: 120px;
+    color: antiquewhite;
+}
+
+.blog {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.icon {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    height: 50px;
+}
+
+.icon-fixed {
+    display: flex;
+    align-content: space-between;
+}
+
+.newsfeed {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer {
+    background-color: rgb(22, 22, 22);
+}
+
+.footer .footer-text {
+    padding-left: 50%;
+}
+
+.footer .social {
+    padding-left: 50%;
+}
+
+.footer .footer-button {
+    background-image: none;
+}
+
+.footer .footer-text {
+    color: rgb(235, 235, 235);
+}
+
+.footer .last-text {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding-right: 50px;
+    margin-left: 100px;
+}
